@@ -14,6 +14,8 @@ ggplot(diamonds) +
   geom_point(aes(x=carat, y=price, color=cut)) + 
   geom_smooth(aes(x=carat, y=price))
 
+# modified, modified, modified, modified
+
 # Display where my remote Git repository is ... can help with trouble shooting
 
 # system("git remote show origin")
